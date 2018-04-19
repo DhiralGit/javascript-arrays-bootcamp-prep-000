@@ -3,6 +3,7 @@ chocolateBars.unshift('gums')
 
 function addElementToBeginningOfArray(array, element) {
   return [element, ...array];
+  return array;
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
